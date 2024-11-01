@@ -40,10 +40,10 @@ fun main() {
 
     var x = 0
     var y = 0
-    var xStep = 5
-    var yStep = 5
+    var xStep = 1
+    var yStep = 1
 
-    fixedRateTimer("timer", initialDelay = 10, period = 30) {
+    fixedRateTimer("timer", initialDelay = 0, period = 50) {
         val screenSize = java.awt.Toolkit.getDefaultToolkit().screenSize
         val frameWidth = frame.width
         val frameHeight = frame.height
